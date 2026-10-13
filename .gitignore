@@ -1,0 +1,51 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Django generated files
+staticfiles/
+media/
+*.log
+
+# Local databases
+db.sqlite3
+db.sqlite3-journal
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+coverage/
+.npm/
+
+# Environment files and local configuration
+*.local
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Test and temporary files
+.pytest_cache/
+*.tmp
+*.bak
+
+# OS files
+Desktop.ini
